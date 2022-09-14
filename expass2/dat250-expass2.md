@@ -8,7 +8,10 @@ When the code line 75 in the MainTest.Java is executed, the program determines t
 The issue is firstly solved by writing my own toString() method and later by passing the test, thus not calling the toString() method in the first place.
 #### -Bank's card set doesn't match the expected value
 When the code line 75 in the MainTest.Java is executed, the program determines that the elements don't match. A toString() call reveals both set (the tested set is bank's card set and the expected set is the set of two credit cards) have the same elements.
-Further inspection shows 
+Further inspection shows the issue lies within the mapping. By removing the instruction "targetEntity" after the "@ManyToOne" in the CreditCard class, the issue is sold in the end.
+## Data Inspection
 
+## Pending Issue
+None.
 ## Github Link
 https://github.com/CeruleanG/dat250-jpa-example
