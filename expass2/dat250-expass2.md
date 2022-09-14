@@ -19,4 +19,4 @@ No issue remains unsolved by the end of this assignment.
 ## Github Link
 https://github.com/CeruleanG/dat250-jpa-example/tree/own-issue
 ## Side Note
-This lab assignment is made with collaboration of 3 members of my group, which includes Jingwen CHEN, Anthony LEBLANC and Aeneas RUS LIN.
+This lab assignment is made with collaboration of 3 members of my group, which includes Jingwen CHEN, Anthony LEBLANC and Aeneas RUS LIN. In which case it might be possible to see similar coding in three of us' hand-ins.
