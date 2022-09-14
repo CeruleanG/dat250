@@ -17,6 +17,6 @@ Upon Passing the test run, the Database View of the IntelliJ IDE was used to ver
 ## Pending Issue
 No issue remains unsolved by the end of this assignment.
 ## Github Link
-https://github.com/CeruleanG/dat250-jpa-example
+https://github.com/CeruleanG/dat250-jpa-example/tree/own-issue
 ## Side Note
 This lab assignment is made with collaboration of 3 members of my group, which includes Jingwen CHEN, Anthony LEBLANC and Aeneas RUS LIN.
