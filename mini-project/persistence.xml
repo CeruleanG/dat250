@@ -2,10 +2,10 @@
 <persistence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
              version="2.0" xmlns="http://java.sun.com/xml/ns/persistence">
-    <persistence-unit name="experiment2" transaction-type="RESOURCE_LOCAL">
+    <persistence-unit name="miniproject" transaction-type="RESOURCE_LOCAL">
 
         <class>no.hvl.dat250.jpa.assignment2.Poll</class>
-        <class>no.hvl.dat250.jpa.assignment2.User</class>
+        <class>no.hvl.dat250.jpa.assignment2.UserProfile</class>
         <class>no.hvl.dat250.jpa.assignment2.VotePoll</class>
         <class>no.hvl.dat250.jpa.assignment2.Ticket</class>
 

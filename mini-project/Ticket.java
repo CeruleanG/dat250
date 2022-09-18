@@ -17,7 +17,7 @@ public class Ticket {
     private Long id;
     private int voteNb;
     
-    private User voter;
+    private UserProfile voter;
     
     @ManyToOne
     private VotePoll fromPoll;

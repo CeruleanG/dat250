@@ -12,20 +12,17 @@ import java.util.Set;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Poll {
+public class UserProfile {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String subject;
-    private int Status;
-    private boolean isPublic;
-    private Long timer;
+    private String login;
+    private String pwd;
     
-    private VotePoll votePoll;
+    @OneToMany(mappedBy = "owner")
+    private Set<Poll> PollsOwned;
     
-    @ManyToOne
-    private UserProfile owner;
+    @ManyToMany(mappedBy = "participants")
+    private Set<Poll> PollsParticipated;
     
-    @ManyToMany
-    private Set<UserProfile> participants;
 }
